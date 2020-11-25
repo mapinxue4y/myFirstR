@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+    width: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.fullImg{
+    position: relative;
+    height: 460px;
+    width: 500px;
+    display:block;
+}
+.fullImg img{
+    height: 460px;
+    width: 500px;
+}
+.overlay{
+    position:absolute;
+    height: 460px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+button{
+      border:0;
+      background-color: rgba(150,150 , 150, 0.6);
+      text-shadow:1px 1px 1px white;
+      position:absolute;
+      cursor: pointer;
+      top:2px;
+      left:2px;
+      border: 1px solid #999;
+}
+.exbar img{
+    float:left;
+    display:block;
+    cursor: pointer;
+}
+img {
+    width: 25%;
+    height:70px;
+}
